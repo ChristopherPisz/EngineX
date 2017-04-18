@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{209ce0d3-e910-4169-ab2f-0af92985a432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{b1854d0e-8e0c-4902-b729-e2ca46ed9e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\2D">
+      <UniqueIdentifier>{a74e8517-3bd2-4bf8-8197-90f0da5e8302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\3D">
+      <UniqueIdentifier>{0dda26ac-c93a-486e-83d9-328f1da58b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Cameras">
+      <UniqueIdentifier>{5aab701a-38ab-4af5-acb1-30fc82e58ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Effects">
+      <UniqueIdentifier>{85c39d98-4fb3-4bb7-a144-2ac6ca838bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Effects\HLSL">
+      <UniqueIdentifier>{45f52a8a-9846-48e8-bccc-e7fea5f2ef14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Lights">
+      <UniqueIdentifier>{fc0ddcd4-e2fc-40cd-bdbb-0ea97a7312f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Textures">
+      <UniqueIdentifier>{209d9bac-f2c8-42a2-a7a5-986685a5be30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\DisplayMode.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\DisplayModeEnumerator.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GFXApplication.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GFXAppTimer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\RefreshRate.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Resolution.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\2D\Font2D.cpp">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\2D\Image2D.cpp">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\2D\SceneObject2D.cpp">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\2D\TextArea2D.cpp">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\2D\TextureCoordRect.cpp">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\Buffers.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\InputElementDescription.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\InputLayoutManager.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\LensFlare.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\PolygonSet.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\PolygonSetParser.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\Renderable.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\RenderQueue.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\Shapes.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\SkyBox.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\3D\Transform.cpp">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Cameras\BaseCamera.cpp">
+      <Filter>Source Files\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Cameras\FlightCamera.cpp">
+      <Filter>Source Files\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effects\Effect.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effects\EffectManager.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effects\Material.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effects\Pass.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effects\Technique.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Lights\AmbientLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Lights\DirectionalLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Lights\PointLight.cpp">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Textures\Texture.cpp">
+      <Filter>Source Files\Graphics\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Textures\TextureManager.cpp">
+      <Filter>Source Files\Graphics\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\DisplayMode.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\DisplayModeEnumerator.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GFXApplication.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GFXAppTimer.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\RefreshRate.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Resolution.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\2D\Font2D.h">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\2D\Image2D.h">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\2D\SceneObject2D.h">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\2D\TextArea2D.h">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\2D\TextureCoordRect.h">
+      <Filter>Source Files\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\Buffers.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\Clickable.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\InputElementDescription.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\InputLayoutManager.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\LensFlare.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\PolygonSet.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\PolygonSetParser.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\Renderable.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\RenderQueue.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\Shapes.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\SkyBox.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\3D\Transform.h">
+      <Filter>Source Files\Graphics\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Cameras\BaseCamera.h">
+      <Filter>Source Files\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Cameras\FlightCamera.h">
+      <Filter>Source Files\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effects\Effect.h">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effects\EffectManager.h">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effects\Material.h">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effects\Pass.h">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effects\Technique.h">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Lights\AmbientLight.h">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Lights\DirectionalLight.h">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Lights\PointLight.h">
+      <Filter>Source Files\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Textures\Texture.h">
+      <Filter>Source Files\Graphics\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Textures\TextureManager.h">
+      <Filter>Source Files\Graphics\Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Graphics\Effects\HLSL\Background.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\default.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\EffectPool.fxh">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\image.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\LensFlare.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\PerPixelLighting.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\PerPixelPhong.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="Source\Graphics\Effects\HLSL\skybox.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

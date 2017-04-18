@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\DisplayMode.cpp" />
+    <ClCompile Include="Source\Core\DisplayModeEnumerator.cpp" />
+    <ClCompile Include="Source\Core\GFXApplication.cpp" />
+    <ClCompile Include="Source\Core\GFXAppTimer.cpp" />
+    <ClCompile Include="Source\Core\RefreshRate.cpp" />
+    <ClCompile Include="Source\Core\Resolution.cpp" />
+    <ClCompile Include="Source\Graphics\2D\Font2D.cpp" />
+    <ClCompile Include="Source\Graphics\2D\Image2D.cpp" />
+    <ClCompile Include="Source\Graphics\2D\SceneObject2D.cpp" />
+    <ClCompile Include="Source\Graphics\2D\TextArea2D.cpp" />
+    <ClCompile Include="Source\Graphics\2D\TextureCoordRect.cpp" />
+    <ClCompile Include="Source\Graphics\3D\Buffers.cpp" />
+    <ClCompile Include="Source\Graphics\3D\InputElementDescription.cpp" />
+    <ClCompile Include="Source\Graphics\3D\InputLayoutManager.cpp" />
+    <ClCompile Include="Source\Graphics\3D\LensFlare.cpp" />
+    <ClCompile Include="Source\Graphics\3D\PolygonSet.cpp" />
+    <ClCompile Include="Source\Graphics\3D\PolygonSetParser.cpp" />
+    <ClCompile Include="Source\Graphics\3D\Renderable.cpp" />
+    <ClCompile Include="Source\Graphics\3D\RenderQueue.cpp" />
+    <ClCompile Include="Source\Graphics\3D\Shapes.cpp" />
+    <ClCompile Include="Source\Graphics\3D\SkyBox.cpp" />
+    <ClCompile Include="Source\Graphics\3D\Transform.cpp" />
+    <ClCompile Include="Source\Graphics\Cameras\BaseCamera.cpp" />
+    <ClCompile Include="Source\Graphics\Cameras\FlightCamera.cpp" />
+    <ClCompile Include="Source\Graphics\Effects\Effect.cpp" />
+    <ClCompile Include="Source\Graphics\Effects\EffectManager.cpp" />
+    <ClCompile Include="Source\Graphics\Effects\Material.cpp" />
+    <ClCompile Include="Source\Graphics\Effects\Pass.cpp" />
+    <ClCompile Include="Source\Graphics\Effects\Technique.cpp" />
+    <ClCompile Include="Source\Graphics\Lights\AmbientLight.cpp" />
+    <ClCompile Include="Source\Graphics\Lights\DirectionalLight.cpp" />
+    <ClCompile Include="Source\Graphics\Lights\PointLight.cpp" />
+    <ClCompile Include="Source\Graphics\Textures\Texture.cpp" />
+    <ClCompile Include="Source\Graphics\Textures\TextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\DisplayMode.h" />
+    <ClInclude Include="Source\Core\DisplayModeEnumerator.h" />
+    <ClInclude Include="Source\Core\GFXApplication.h" />
+    <ClInclude Include="Source\Core\GFXAppTimer.h" />
+    <ClInclude Include="Source\Core\RefreshRate.h" />
+    <ClInclude Include="Source\Core\Resolution.h" />
+    <ClInclude Include="Source\Graphics\2D\Font2D.h" />
+    <ClInclude Include="Source\Graphics\2D\Image2D.h" />
+    <ClInclude Include="Source\Graphics\2D\SceneObject2D.h" />
+    <ClInclude Include="Source\Graphics\2D\TextArea2D.h" />
+    <ClInclude Include="Source\Graphics\2D\TextureCoordRect.h" />
+    <ClInclude Include="Source\Graphics\3D\Buffers.h" />
+    <ClInclude Include="Source\Graphics\3D\Clickable.h" />
+    <ClInclude Include="Source\Graphics\3D\InputElementDescription.h" />
+    <ClInclude Include="Source\Graphics\3D\InputLayoutManager.h" />
+    <ClInclude Include="Source\Graphics\3D\LensFlare.h" />
+    <ClInclude Include="Source\Graphics\3D\PolygonSet.h" />
+    <ClInclude Include="Source\Graphics\3D\PolygonSetParser.h" />
+    <ClInclude Include="Source\Graphics\3D\Renderable.h" />
+    <ClInclude Include="Source\Graphics\3D\RenderQueue.h" />
+    <ClInclude Include="Source\Graphics\3D\Shapes.h" />
+    <ClInclude Include="Source\Graphics\3D\SkyBox.h" />
+    <ClInclude Include="Source\Graphics\3D\Transform.h" />
+    <ClInclude Include="Source\Graphics\Cameras\BaseCamera.h" />
+    <ClInclude Include="Source\Graphics\Cameras\FlightCamera.h" />
+    <ClInclude Include="Source\Graphics\Effects\Effect.h" />
+    <ClInclude Include="Source\Graphics\Effects\EffectManager.h" />
+    <ClInclude Include="Source\Graphics\Effects\Material.h" />
+    <ClInclude Include="Source\Graphics\Effects\Pass.h" />
+    <ClInclude Include="Source\Graphics\Effects\Technique.h" />
+    <ClInclude Include="Source\Graphics\Lights\AmbientLight.h" />
+    <ClInclude Include="Source\Graphics\Lights\DirectionalLight.h" />
+    <ClInclude Include="Source\Graphics\Lights\PointLight.h" />
+    <ClInclude Include="Source\Graphics\Textures\Texture.h" />
+    <ClInclude Include="Source\Graphics\Textures\TextureManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Graphics\Effects\HLSL\Background.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\default.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\EffectPool.fxh" />
+    <None Include="Source\Graphics\Effects\HLSL\image.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\LensFlare.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\PerPixelLighting.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\PerPixelPhong.fx" />
+    <None Include="Source\Graphics\Effects\HLSL\skybox.fx" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EngineX</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\$(PlatformName)\Lib\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\$(PlatformName)\Obj\</IntDir>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\$(PlatformName)\Lib\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\$(PlatformName)\Obj\</IntDir>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\Third Party\boost_1_62_0;$(SolutionDir)..\Common\Common;$(ProjectDir)\Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\Third Party\boost_1_62_0\lib32-msvc-14.0;$(SolutionDir)..\Common\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+    <PreBuildEvent>
+      <Command>echo Deleting Include Files...
+attrib -R "$(ConfigurationName)\$(PlatformName)\Include\*.*" /s
+del "$(ConfigurationName)\$(PlatformName)\Include\*.*" /s /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>echo Copying Header Files...
+xcopy "Source\*.h" "$(ConfigurationName)\$(PlatformName)\Include\" /s /y
+xcopy "Source\*.hxx" "$(ConfigurationName)\$(PlatformName)\Include\" /s /y
+attrib +R "$(ConfigurationName)\$(PlatformName)\Include\*.h" /s
+attrib +R "$(ConfigurationName)\$(PlatformName)\Include\*.hxx" /s
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>
+      </BasicRuntimeChecks>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\Third Party\boost_1_62_0;$(SolutionDir)..\Common\Common;$(ProjectDir)\Source</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\Third Party\boost_1_62_0\lib32-msvc-14.0;$(SolutionDir)..\Common\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>echo Copying Header Files...
+xcopy "Source\*.h" "$(ConfigurationName)\$(PlatformName)\Include\" /s /y
+xcopy "Source\*.hxx" "$(ConfigurationName)\$(PlatformName)\Include\" /s /y
+attrib +R "$(ConfigurationName)\$(PlatformName)\Include\*.h" /s
+attrib +R "$(ConfigurationName)\$(PlatformName)\Include\*.hxx" /s
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>echo Deleting Include Files...
+attrib -R "$(ConfigurationName)\$(PlatformName)\Include\*.*" /s
+del "$(ConfigurationName)\$(PlatformName)\Include\*.*" /s /q
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

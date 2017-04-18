@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineX", "EngineX.vcxproj", "{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EngineX Tests", "EngineX Tests", "{74419667-7CA0-4FEF-859E-3EB47312D531}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0001_SpaceScene", "Tests\0001_SpaceScene\0001_SpaceScene.vcxproj", "{9E852FC5-60A6-4658-B8D0-9693C672B68A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}.Debug|Win32.Build.0 = Debug|Win32
+		{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}.Release|Win32.ActiveCfg = Release|Win32
+		{80AFBB83-9BAB-415E-8F4D-6F83ACEE2D94}.Release|Win32.Build.0 = Release|Win32
+		{9E852FC5-60A6-4658-B8D0-9693C672B68A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E852FC5-60A6-4658-B8D0-9693C672B68A}.Debug|Win32.Build.0 = Debug|Win32
+		{9E852FC5-60A6-4658-B8D0-9693C672B68A}.Release|Win32.ActiveCfg = Release|Win32
+		{9E852FC5-60A6-4658-B8D0-9693C672B68A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E852FC5-60A6-4658-B8D0-9693C672B68A} = {74419667-7CA0-4FEF-859E-3EB47312D531}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://brainy:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ..\\Common\\Common.vcxproj
+		SccProjectName0 = ../../../CPlusPlus\u0020Common\u0020Library
+		SccAuxPath0 = http://brainy:8080/tfs/defaultcollection
+		SccLocalPath0 = ..\\Common
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Common\\Tests\\0001_Logger\\0001_Logger.vcxproj
+		SccProjectTopLevelParentUniqueName1 = EngineX.sln
+		SccProjectName1 = ../../../CPlusPlus\u0020Common\u0020Library/Tests/0001_Logger
+		SccAuxPath1 = http://brainy:8080/tfs/defaultcollection
+		SccLocalPath1 = ..\\Common\\Tests\\0001_Logger
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\Common\\Tests\\0002_Timer\\0002_Timer.vcxproj
+		SccProjectTopLevelParentUniqueName2 = EngineX.sln
+		SccProjectName2 = ../../../CPlusPlus\u0020Common\u0020Library/Tests/0002_Timer
+		SccAuxPath2 = http://brainy:8080/tfs/defaultcollection
+		SccLocalPath2 = ..\\Common\\Tests\\0002_Timer
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\Common\\Tests\\0003_BaseWindow\\0003_BaseWindow.vcxproj
+		SccProjectTopLevelParentUniqueName3 = EngineX.sln
+		SccProjectName3 = ../../../CPlusPlus\u0020Common\u0020Library/Tests/0003_BaseWindow
+		SccAuxPath3 = http://brainy:8080/tfs/defaultcollection
+		SccLocalPath3 = ..\\Common\\Tests\\0003_BaseWindow
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

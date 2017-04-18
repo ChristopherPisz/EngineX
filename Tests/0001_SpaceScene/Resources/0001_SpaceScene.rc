@@ -1,0 +1,113 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GRAPHICS_CONFIG DIALOGEX 0, 0, 300, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Graphics Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Adapter",IDC_LBL_ADAPTERS,7,7,27,8
+    LTEXT           "Monitor",IDC_LBL_MONITORS,151,7,25,8
+    COMBOBOX        IDC_CMB_ADAPTER,7,16,127,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_MONITOR,151,15,35,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Resolution",IDC_GRP_RESOLUTION,7,37,136,72
+    CONTROL         "Start in Windowed Mode",IDC_CHK_WINDOWED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,93,92,10
+    COMBOBOX        IDC_CMB_RESOLUTION_FULLSCREEN,53,53,81,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Refresh Rate",IDC_LBL_REFRESHRATE,159,54,44,8
+    COMBOBOX        IDC_CMB_REFRESHRATE,205,51,77,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Multisampling",IDC_LBL_MULTISAMPLING_COUNT,159,73,43,8
+    LTEXT           "Quality Level",IDC_LBL_MULTISAMPLING_QUALITY,213,74,42,8
+    COMBOBOX        IDC_CMB_MULTISAMPLE_QUALITY,213,84,35,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,121,115,50,14
+    COMBOBOX        IDC_CMB_RESOLUTION_WINDOWED,53,70,81,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Windowed",IDC_LBL_WINDOWED,15,73,34,8
+    LTEXT           "Fullscreen",IDC_LBL_FULLSCREEN,14,56,33,8
+    GROUPBOX        "Advanced Options",IDC_STATIC,152,37,140,72
+    COMBOBOX        IDC_CMB_MULTISAMPLE_COUNT,159,84,35,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GRAPHICS_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
